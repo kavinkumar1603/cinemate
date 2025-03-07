@@ -1,5 +1,5 @@
 import React from 'react'
-import logocinemate from '../assests/logocinemate.jpg'
+import cinemateimage from '../assests/cinemateimage.jpg'
 import { Link } from 'react-router-dom'
 export const Header = () => {
   return (
@@ -7,7 +7,7 @@ export const Header = () => {
         <nav className="bg-white border-gray-200 dark:bg-gray-900">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link to="https://www.youtube.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
-              <img src={logocinemate} className="h-8" alt="Flowbite Logo" />
+              <img src={cinemateimage} className="h-8" alt="Flowbite Logo" />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">CINEMATE</span>
           </Link>
           <div className="flex md:order-2">
