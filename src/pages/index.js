@@ -1,4 +1,7 @@
-export { MovieList } from './MovieList'
-export { MovieDetail } from './MovieDetail'
-export { Search } from './Search'
-export { PageNotFound } from './PageNotFound'
+export { Header } from "./Header";
+export { Footer } from "./Footer";
+
+export { Card } from "./Card";
+export { Button } from "./Button";
+
+export { ScrollToTop } from "./ScrollToTop";
